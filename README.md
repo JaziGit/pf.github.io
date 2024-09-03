@@ -1,3 +1,4 @@
+theme: jekyll-theme-tactile
 # My Project
 This is the main content of my project page.
 
