@@ -1,74 +1,46 @@
-/* Basic Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-/* Body Style */
-body {
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    padding: 20px;
-}
-
-/* Header Style */
-header {
-    background: #333;
+/* Header Styling */
+#header {
+    background: linear-gradient(45deg, #007bff, #6610f2);
     color: #fff;
-    padding: 10px 0;
-    text-align: center;
+}
+
+/* Section Styling */
+main section {
+    padding: 40px 0;
+}
+
+section h2 {
+    color: #333;
     margin-bottom: 20px;
 }
 
-header h1 {
-    font-size: 2.5em;
+section p {
+    color: #666;
 }
 
-/* Main Content Style */
-main .content {
-    margin-bottom: 20px;
-    padding: 20px;
-    background: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Card Styling */
+.card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f8f9fa;
 }
 
-main h2 {
-    margin-bottom: 10px;
-    color: #444;
+.card h5 {
+    color: #007bff;
 }
 
-main p {
-    margin-bottom: 10px;
+.card a.btn-primary {
+    background-color: #007bff;
+    border: none;
 }
 
-main ul {
-    list-style: none;
+.card a.btn-primary:hover {
+    background-color: #0056b3;
 }
 
-main ul li {
-    margin-bottom: 10px;
-}
-
-main ul li a {
-    text-decoration: none;
-    color: #0066cc;
-}
-
-main ul li a:hover {
-    text-decoration: underline;
-}
-
-/* Footer Style */
+/* Footer Styling */
 footer {
     background: #333;
     color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
 }
