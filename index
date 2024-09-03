@@ -1,0 +1,12 @@
+<h1>My Project</h1>
+<p>This is the main content of my project page.</p>
+
+<h2>About the Project</h2>
+<p>Details about the project go here.</p>
+
+<h2>Features</h2>
+<ul>
+  <li>Feature 1</li>
+  <li>Feature 2</li>
+  <li>Feature 3</li>
+</ul>
